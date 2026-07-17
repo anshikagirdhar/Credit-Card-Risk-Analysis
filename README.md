@@ -91,10 +91,3 @@ Install dependencies:
 
 pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
 
-📈 Future Improvements
-
-Implement advanced models (XGBoost, LightGBM, Neural Networks)
-
-Hyperparameter tuning with GridSearch/RandomizedSearch
-
-Deploy the best model as an API for real-time fraud detection
