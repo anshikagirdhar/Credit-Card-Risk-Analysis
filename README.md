@@ -6,7 +6,7 @@ precision/recall tradeoff inherent to severely imbalanced classification.
 
 ## 📂 Project Structure
 ```
-├── Credit_Card_Risk_Analysis.ipynb   # Full analysis: EDA, preprocessing, modeling
+├── credit card.ipynb   # Full analysis: EDA, preprocessing, modeling
 ├── creditcard.csv                    # Dataset (see download note below)
 └── README.md
 ```
