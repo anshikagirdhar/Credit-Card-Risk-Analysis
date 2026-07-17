@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection using Logistic Regression
+# Credit Card Risk Analysis
 
 ## Overview
 This project analyzes highly imbalanced credit card transaction data to detect fraudulent transactions. It applies exploratory data analysis (EDA) and under-sampling techniques to address class imbalance, then builds and evaluates a Logistic Regression model to classify transactions as legitimate or fraudulent.
@@ -56,17 +56,13 @@ This project analyzes highly imbalanced credit card transaction data to detect f
    ```bash
    pip install numpy pandas scikit-learn
    ```
-3. Open and run `work.ipynb` in Jupyter Notebook / JupyterLab.
+3. Open and run `credit card.ipynb` in Jupyter Notebook / JupyterLab.
 
 ## Project Structure
 ```
 .
-├── work.ipynb        # Main notebook: EDA, under-sampling, model training & evaluation
+├── credit card.ipynb        # Main notebook: EDA, under-sampling, model training & evaluation
 ├── creditcard.csv     # Dataset (not included — add your own copy)
 └── README.md          # Project documentation
 ```
 
-## Future Improvements
-- Experiment with other algorithms (Random Forest, XGBoost) for comparison.
-- Try alternative imbalance-handling techniques (SMOTE, class weighting) instead of random under-sampling.
-- Perform hyperparameter tuning and cross-validation for more robust performance estimates.
